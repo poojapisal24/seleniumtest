@@ -14,12 +14,15 @@ public class test24 {
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("wel");
         driver.findElement(By.cssSelector("#pass")).sendKeys("om");
         driver.findElement(By.xpath("//*[@id=\"loginbutton\"]")).click();
-        
-        
-        
+        driver.findElement(By.xpath("//*[@id=\"u_0_7\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"u_0_12\"]")).click();
+    
         
      
 
+	}
+
+	
 	}
 
 }
