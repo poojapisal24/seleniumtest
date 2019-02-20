@@ -15,11 +15,11 @@ public class test24 {
         WebDriver driver = new FirefoxDriver();
         driver.get("http://www.Facebook.com");
         driver.manage().window().maximize();
-       // driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("wel");
-        //driver.findElement(By.cssSelector("#pass")).sendKeys("om");
-       // driver.findElement(By.xpath("//*[@id=\"loginbutton\"]")).click();
-      // driver.findElement(By.xpath("//*[@id=\"u_0_7\"]")).click();
-       // driver.findElement(By.xpath("//*[@id=\"u_0_12\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("wel");
+        driver.findElement(By.cssSelector("#pass")).sendKeys("om");
+        driver.findElement(By.xpath("//*[@id=\"loginbutton\"]")).click();
+       driver.findElement(By.xpath("//*[@id=\"u_0_7\"]")).click();
+       driver.findElement(By.xpath("//*[@id=\"u_0_12\"]")).click();
         WebElement Month_dropdown=driver.findElement(By.id("month"));
         Select month_dd= new Select(Month_dropdown);
         
